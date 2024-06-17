@@ -23,8 +23,6 @@ alias update_terminal="source ~/.zshrc"
 ################ WORK ############################
 export PUPPETEER_EXPERIMENTAL_CHROMIUM_MAC_ARM=true
 alias npmlist="npm list --depth=40 > ~/deps.txt && sublime ~/deps.txt"
-alias paranoid_android="cd ~/shipstation-ui/paranoid-androids"
-alias work="~/shipstation-ui"
 
 
 ################# Git #######################
