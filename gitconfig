@@ -1,0 +1,16 @@
+[user]
+  name = Derek Colnar
+[alias]
+  rewrite = commit --amend --no-edit
+  please = push --force-with-lease
+  wipe = reset --hard
+  undo = reset HEAD~
+  history = log origin/master..HEAD
+  upload = push -u origin HEAD
+  readd = add -- $(git diff --staged --name-only --relative)
+  deforest = removed-branches --prune --force
+  nuke = reset --hard @{u}
+[diff]
+  tool=meld
+[difftool]
+  prompt=false
